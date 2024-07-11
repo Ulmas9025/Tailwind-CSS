@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-poppins;
+    }
+}
+
+@layer components {
+    .section-title {
+        @apply text-[44px] font-semibold leading-normal tracking-[-0.002em] md:text-4xl sm:text-3xl;
+    }
+    .section-text {
+        @apply text-base text-lightgray tracking-[-0.002em];
+    }
+    .tab-trigger.active {
+        @apply border-b border-b-blueViolet text-blueViolet pb-3;
+    }
+    .accordion-items.active > .accordion-content {
+        @apply block;
+    }
+    .accordion-items.active .accordion-img  {
+        @apply rotate-180;
+    }
+}
+
+

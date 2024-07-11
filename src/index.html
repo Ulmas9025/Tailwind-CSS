@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link href="./css/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header START -->
+    <section class="bg-heroGradient rounded-br-[200px] overflow-hidden">
+        <!-- Header -->
+        <header class="mx-auto flex max-w-[1336px] justify-between pt-[35px] items-center px-5 sm:pt-5">
+            <!-- logo -->
+            <a href="#" class="z-[1]">
+                <img src="./img/logo/outschool.svg" alt="">
+            </a>
+            <!-- Menu Desktop -->
+            <nav class="sm:hidden">
+                <ul class="flex items-center gap-[30px]">
+                    <li><a href=""
+                            class="relative text-[15px] font-medium leading-[22px] text-white after:absolute after:h-[1px] after:w-full
+                        after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Courses</a>
+                    </li>
+                    <li><a href=""
+                            class="relative text-[15px] font-medium leading-[22px] text-white after:absolute after:h-[1px] after:w-full
+                        after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Price</a>
+                    </li>
+                    <li><a href=""
+                            class="relative text-[15px] font-medium leading-[22px] text-white after:absolute after:h-[1px] after:w-full
+                        after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Abou
+                            Us</a></li>
+                    <li><a href=""
+                            class="relative text-[15px] font-medium leading-[22px] text-white after:absolute after:h-[1px] after:w-full
+                        after:left-0 after:-bottom-1 after:bg-white after:scale-0 hover:after:scale-100 after:transition-transform">Contact
+                            Us</a></li>
+
+                </ul>
+            </nav>
+
+            <!-- Menu Mobile -->
+            <nav id="mobile-menu"
+                class="fixed left-0 top-0 right-0 bottom-0 bg-heroGradient  items-center justify-center hidden animate-fadeIn">
+                <ul class="flex flex-col items-center gap-10">
+                    <li>
+                        <a href="#" class="text-xl text-white">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-xl text-white">Price</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-xl text-white">Abou Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-xl text-white">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Actions -->
+            <div class="flex items-center gap-[30px] md:hidden">
+                <a href="#" class="flex items-center gap-1">
+                    <i class="fa-regular fa-user text-white"></i>
+                    <span class="text-[15px] font-medium leading-[22px] text-white">Account</span>
+                </a>
+                <a href="#" class="flex items-center gap-1">
+                    <i class="fa-solid fa-cart-shopping text-white"></i>
+                    <span class="text-[15px] font-medium leading-[22px] text-white">Cart</span>
+                </a>
+            </div>
+            <!-- Burger Menu -->
+            <button id="burger" class="group hidden relative sm:block h-5 w-[30px]">
+                <span
+                    class="absolute left-0 h-[1px] translate-y-0 w-full bg-white top-0 group-[.active]:translate-y-2 group-[.active]:rotate-45 transition-transform"></span>
+                <span
+                    class="absolute left-0 h-[1px] w-full bg-white top-1/2 group-[.active]:opacity-0 transition-opacity"></span>
+                <span
+                    class="absolute left-0 h-[1px] w-full bg-white bottom-0 group-[.active]:-translate-y-[11px] group-[.active]:-rotate-45"></span>
+            </button>
+        </header>
+        <!-- Section Hero -->
+        <section class="px-5">
+            <div class="max-w-[1250px] pb-[100px] mx-auto grid grid-cols-2 
+                      pt-[20px] lg:px-5 lg:pt-20 sm:grid-cols-1 sm:pt-16 sm:gap-5">
+                <div>
+                    <h1 class="text-[60px] font-bold leading-normal text-white lg:text-5xl lg:leading-normal 
+                    md:text-4xl md:leading-normal sm:text-3xl  sm:leading-3xl">
+                        Upgrade YOUR sklls for better future
+                    </h1>
+                    <p class="mt-5 text-[22px] leading-normal text-white lg:text-xl md:text-lg sm:text-base">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Dolorem praesentium ducimus iusto doloremque ab corporis
+                        ratione nemo.
+                    </p>
+                    <div class="flex items-center gap-5 sm:grid-cols-2 sm:grid sm:mt-4 xs:grid-cols-1 xs:gap-3">
+                        <a href="#"
+                            class="sm:flex sm:justify-center sm:w-full rounded-xl bg-[#FF00C7] py-[9px] px-[22px] font-semibold text-white hover:bg-white hover:text-black">
+                            Check Courses
+                        </a>
+                        <a href="#"
+                            class="sm:flex sm:justify-center sm:w-full rounded-xl border border-white bg-transparent py-[10px] px-6 font-medium text-white hover:bg-white hover:text-black">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img class="sm:max-w-full sm:w-full sm:h-auto"
+                        src="./img/logo/vecteezy_3d-male-character-thinking-and-working-on-a-laptop_24785798.png"
+                        alt="chiled">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- Header END -->
+    <!-- Section Company -->
+    <section class="pt-10 pb-20 bg-[#ECEFF7] lg:px-5 sm:pb-10">
+        <div class="max-w-[1073px] mx-auto">
+            <h2
+                class="font-semibold text-[40px] leading-[60px] text-[#464747] text-center md:text-3xl md:text-center sm:text-2xl xs:text-[20px] xs:text-center">
+                Our Company and Prtners</h2>
+        </div>
+        <div
+            class="grid grid-cols-5 gap-[100px] mt-[40px] lg:gap-10 mx-[160px] md:grid-cols-3 sm:grid-cols-1 sm:gap-2 sm:ml-[220px]  xs:grid-cols-1 xs:gap-2 xs:ml-[100px]">
+            <div
+                class="flex justify-center items-center w-[113px] h-[45px] md:grid sm:justify-center xs:justify-center md:justify-center">
+                <img src="./img/logo-comp/microsoft.png" alt="logo">
+            </div>
+            <div
+                class="flex justify-center items-center w-[113px] h-[45px] md:grid sm:justify-center xs:justify-center md:justify-center">
+                <img src="./img/logo-comp/treehouse.png" alt="logo">
+            </div>
+            <div
+                class="flex justify-center items-center w-[113px] h-[45px] md:grid sm:justify-center xs:justify-center md:justify-center">
+                <img src="./img/logo-comp/amazon.png" alt="logo">
+            </div>
+            <div
+                class="flex justify-center items-center w-[113px] h-[45px] md:grid sm:justify-center xs:justify-center md:justify-center">
+                <img src="./img/logo-comp/slack.png" alt="logo">
+            </div>
+            <div
+                class="flex justify-center items-center w-[113px] h-[45px] md:grid sm:justify-center xs:justify-center md:justify-center">
+                <img src="./img/logo-comp/google.png" alt="logo">
+            </div>
+        </div>
+    </section>
+    <!--Section Courses List-->
+    <section class="py-20 sm:py-10">
+        <div class="max-w-[1168px] mx-auto lg:px-10">
+            <h2 class="section-title">Our Curses</h2>
+            <!-- Tabs -->
+            <div>
+                <!-- Tabs header -->
+                <div class="mt-[30px] flex gap-10 text-lg text-[#787878] md:flex-wrap md:gap-5 sm:justify-center">
+                    <button class="tab-trigger flex">Top Rated</button>
+                    <button class="tab-trigger flex">Development</button>
+                    <button class="tab-trigger flex">Design</button>
+                    <button class="tab-trigger flex">Music</button>
+                    <button class="tab-trigger flex">Marketing</button>
+                    <button class="tab-trigger flex">Busines</button>
+                    <button class="tab-trigger flex">Photography</button>
+                </div>
+                <!-- Tabs Contents -->
+                <div class="grid grid-cols-4 mt-10 gap-5 lg:grid-cols-2 sm:grid-cols-1 animate-fadeIn">
+                    <!-- tab item -->
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/bot-II.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                            font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/figma.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                              font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/figma2.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                              font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/fullStack.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                              font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/js.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                            font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/digitalAdvertising.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                              font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/marketing2.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                              font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content shadow-[0px_0px_9px_0px_#99999740] rounded-xl">
+                        <div class="rounded-xl overflow-hidden">
+                            <img class="max-w-full w-full h-auto" src="./img/img-list-1/userExperience.jpg" alt="img">
+                        </div>
+                        <div class="p-4">
+                            <span class="text-lighgray py-2 px-4 bg-[#EAEAEA] rounded-md">Artificial Intelligencs</span>
+                            <h3 class="mt-4 font-semibold text-[15px] leading-[22px] tracking-[-0.0024em]">Modern
+                                Artifical Intelligence with zero coding</h3>
+                            <p class="mt-1 text-base">Jhon David</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-blueViolet uppercase tracking-[-0.0024em]">$ 49.99</span>
+                                <a class="text-blueViolet py-[6px] px-[18px] rounded-md text-xs 
+                              font-semibold border border-blueViolet hover:bg-blueViolet hover:text-white transition-colors"
+                                    href="#">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="py-20 sm:py-10">
+        <div class="max-w-[1050px] mx-auto lg:mx-[15px]">
+            <div class="max-w-[630px] mx-auto">
+                <h2 class="section-title text-center">Our Features and Services</h2>
+                <p class="section-text text-center mt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem mollitia labore nam ad voluptatum, 
+                    quaerat reiciendis assumenda culpa.
+                </p>
+            </div>
+            <div class="grid grid-cols-3 gap-[15px] mt-[60px] md:grid-cols-2 md:mt-10 md:gap-2 xs:grid-cols-1 xs:">
+                <div class="p-[25px] md:p-5 xs:p-2">
+                    <div class="max-w-[50px]">
+                        <img src="./img/icons/key.svg" alt="svg">
+                    </div>
+                    <p class="text-xl leading-normal font-medium mt-2">Life Time Access</p>
+                    <p class="mt-[15px] text-base tracking-[-0.002em] text-lightgray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda,
+                         reiciendis recusandae beatae asperiores nobis ipsa molestiae earum aliquam?
+                    </p>
+                </div>  
+                <div class="p-[25px] md:p-5 xs:p-2">
+                    <div class="max-w-[50px]">
+                        <img src="./img/icons/display.svg" alt="svg">
+                    </div>
+                    <p class="text-xl leading-normal font-medium mt-2">Online Classes</p>
+                    <p class="mt-[15px] text-base tracking-[-0.002em] text-lightgray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda,
+                         reiciendis recusandae beatae asperiores nobis ipsa molestiae earum aliquam?
+                    </p>
+                </div>  
+                <div class="p-[25px] md:p-5 xs:p-2">
+                    <div class="max-w-[50px]">
+                        <img src="./img/icons/certificate.svg" alt="svg">
+                    </div>
+                    <p class="text-xl leading-normal font-medium mt-2">Get Certificate</p>
+                    <p class="mt-[15px] text-base tracking-[-0.002em] text-lightgray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda,
+                         reiciendis recusandae beatae asperiores nobis ipsa molestiae earum aliquam?
+                    </p>
+                </div>  
+                <div class="p-[25px] md:p-5 xs:p-2">
+                    <div class="max-w-[50px]">
+                        <img src="./img/icons/user.svg" alt="svg">
+                    </div>
+                    <p class="text-xl leading-normal font-medium mt-2">Expert Trainers</p>
+                    <p class="mt-[15px] text-base tracking-[-0.002em] text-lightgray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda,
+                         reiciendis recusandae beatae asperiores nobis ipsa molestiae earum aliquam?
+                    </p>
+                </div>  
+                <div class="p-[25px] md:p-5 xs:p-2">
+                    <div class="max-w-[50px]">
+                        <img src="./img/icons/confirmations.svg" alt="svg">
+                    </div>
+                    <p class="text-xl leading-normal font-medium mt-2">Great Result</p>
+                    <p class="mt-[15px] text-base tracking-[-0.002em] text-lightgray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda,
+                         reiciendis recusandae beatae asperiores nobis ipsa molestiae earum aliquam?
+                    </p>
+                </div>  
+                <div class="p-[25px] md:p-5 xs:p-2">
+                    <div class="max-w-[50px]">
+                        <img src="./img/icons/dollars.svg" alt="svg">
+                    </div>
+                    <p class="text-xl leading-normal font-medium mt-2">Best Price</p>
+                    <p class="mt-[15px] text-base tracking-[-0.002em] text-lightgray">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda,
+                         reiciendis recusandae beatae asperiores nobis ipsa molestiae earum aliquam?
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Best Platform  -->
+    <section class="py-20 sm:py-10">
+        <div class="max-w-[1144px] mx-auto lg:px-[15px]">
+            <div class="grid grid-cols-2 items-center gap-[100px] lg:gap-10 sm:grid-cols-1">
+                <div class="sm:order-2">
+                    <img class="lg:max-w-full lg:w-full lg:h-auto" src="./img/img-list-1/woman.jpg" alt="img">
+                </div>
+                <div class="">
+                    <h3 class="section-title">Best Platform to qrow</h3>
+                    <p class="section-text md:mt-4"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis dolore mollitia error quae, eveniet vel earum. Esse 
+                        ipsa placeat, modi quas id tempora quasi, beatae itaque maiores, 
+                        quidem dolorem. Exercitationem non nam, aliquam nostrum explicabo 
+                        odit expedita et deleniti porro.                    
+                    </p> 
+                    <a href="#"
+                     class="flex max-w-fit mt-10 md:mt-8 sm:flex sm:justify-center sm:w-full rounded-xl bg-[#AC85FF] py-[9px] px-[22px] font-semibold text-white hover:bg-blueViolet hover:text-black">
+                     Learn more
+                     </a>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- Dsipecher woman -->
+    <section class="py-20 sm:px-10">
+        <div class="max-w-[1144px] mx-auto lg:px-[15px]">
+            <div class="grid grid-cols-2 items-center gap-[100px] lg:gap-10 sm:grid-cols-1">
+                <div class="sm:order-2">
+                    <img class="lg:max-w-full lg:w-full lg:h-auto" src="./img/img-list-1/dispecher.jpg" alt="img">
+                </div>
+                <div class="">
+                    <h3 class="section-title">24/7 Students Support</h3>
+                    <p class="section-text md:mt-4"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Omnis dolore mollitia error quae, eveniet vel earum. Esse 
+                        ipsa placeat, modi quas id tempora quasi, beatae itaque maiores, 
+                        quidem dolorem. Exercitationem non nam, aliquam nostrum explicabo 
+                        odit expedita et deleniti porro.                    
+                    </p> 
+                    <a href="#"
+                     class="flex max-w-fit mt-10 md:mt-8 sm:flex sm:justify-center sm:w-full rounded-xl bg-[#AC85FF] py-[9px] px-[22px] font-semibold text-white hover:bg-blueViolet hover:text-black">
+                     Learn more
+                     </a>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- Latest news 1 -->
+    <section class="pt-[30px] pb-[235px] bg-oboy bg-center bg-no-repeat bg-cover">
+        <h3 class="section-title text-center max-w-[365px] mx-auto opacity-100">Our Latest news & Article</h3>
+    </section>
+    <!-- Latest news 2  -->
+    <section class="pb-20">
+        <div class="grid grid-cols-3 max-w-[980px] mx-auto gap-5 -mt-[195px] md:px-5 md:grid-cols-2 sm:grid-cols-1">
+            <!-- card item -->
+            <div>
+                <div class="rounded-xl shadow-[0px_0px_11px_rgba(153,153,153,0.3)] bg-white pb-4">
+                    <div class="overflow-hidden rounded-xl">
+                        <img class="max-w-full w-full h-[220px]" src="./img/img-list-1/men.jpeg" alt="img">
+                    </div>
+                    <div class="py-4 px-5">
+                        <div class="flex items-center gap-1">
+                            <img class="w-[25px] h-[25px] text-blueViolet" src="./img/icons/square.svg" alt="svg">
+                            <span class="text-[#787878] font-medium text-sm ">Web Development</span>
+                        </div>
+                    </div>
+                    <h4 class="font-montserrat font-semibold tracking-[-0.002em] mt-2 w-max-[95%] mb-2 mx-2">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                    </h4>
+                    <div class="flex items-center justify-between mx-2">
+                        <div class="flex items-center gap-1">
+                            <img class="w-[25px] h-[25px]" src="./img/icons/date.svg" alt="svg">
+                            <span class="font-medium font-montserrat tracking-[-0.002em] leading-4 text-[#888888]">20-12-2022</span>
+                        </div>
+                        <a href="#" class="group flex items-center gap-2 mr-2">
+                            <span class="font-montserrat font-semibold tracking-[-0.002em] text-blueViolet">Read more</span>
+                            <img class="group-hover:translate-x-2 w-[25px] h-[25px] transition-transform"
+                                src="./img/icons/right.svg" alt="svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card item -->
+            <div>
+                <div class="rounded-xl shadow-[0px_0px_11px_rgba(153,153,153,0.3)] bg-white pb-4">
+                    <div class="overflow-hidden rounded-xl">
+                        <img class="max-w-full w-full h-[220px]" src="./img/img-list-1/komands.jpg" alt="img">
+                    </div>
+                    <div class="py-4 px-5">
+                        <div class="flex items-center gap-1">
+                            <img class="w-[25px] h-[25px] text-blueViolet" src="./img/icons/square.svg" alt="svg">
+                            <span class="text-[#787878] font-medium text-sm ">Business</span>
+                        </div>
+                    </div>
+                    <h4 class="font-montserrat font-semibold tracking-[-0.002em] mt-2 w-max-[95%] mb-2 mx-2">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                    </h4>
+                    <div class="flex items-center justify-between mx-2">
+                        <div class="flex items-center gap-1">
+                            <img class="w-[25px] h-[25px]" src="./img/icons/date.svg" alt="svg">
+                            <span class="font-medium font-montserrat tracking-[-0.002em] leading-4 text-[#888888]">20-12-2022</span>
+                        </div>
+                        <a href="#" class="group flex items-center gap-2 mr-2">
+                            <span class="font-montserrat font-semibold tracking-[-0.002em] text-blueViolet">Read more</span>
+                            <img class="group-hover:translate-x-2 w-[25px] h-[25px] transition-transform"
+                                src="./img/icons/right.svg" alt="svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card item -->
+            <div>
+                <div class="rounded-xl shadow-[0px_0px_11px_rgba(153,153,153,0.3)] bg-white pb-4">
+                    <div class="overflow-hidden rounded-xl">
+                        <img class="max-w-full w-full h-[220px]" src="./img/img-list-1/texnogiy.jpg" alt="img">
+                    </div>
+                    <div class="py-4 px-5">
+                        <div class="flex items-center gap-1">
+                            <img class="w-[25px] h-[25px] text-blueViolet" src="./img/icons/square.svg" alt="svg">
+                            <span class="text-[#787878] font-medium text-sm ">Technogligy</span>
+                        </div>
+                    </div>
+                    <h4 class="font-montserrat font-semibold tracking-[-0.002em] mt-2 w-max-[95%] mb-2 mx-2">
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                    </h4>
+                    <div class="flex items-center justify-between mx-2">
+                        <div class="flex items-center gap-1">
+                            <img class="w-[25px] h-[25px]" src="./img/icons/date.svg" alt="svg">
+                            <span class="font-medium font-montserrat tracking-[-0.002em] leading-4 text-[#888888]">20-12-2022</span>
+                        </div>
+                        <a href="#" class="group flex items-center gap-2 mr-2">
+                            <span class="font-montserrat font-semibold tracking-[-0.002em] text-blueViolet">Read more</span>
+                            <img class="group-hover:translate-x-2 w-[25px] h-[25px] transition-transform"
+                                src="./img/icons/right.svg" alt="svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section accordion -->
+    <section class="pt-20 sm:py-10">
+        <h3 class="section-title text-center">FAQ</h3>
+        <!-- Accordion -->
+        <div class="max-w-[1000px] mx-auto flex flex-col gap-10 md:px-5 md:gap-5 mt-10">
+            <!-- Accordion Item -->
+            <div class="accordion-items">
+                <!-- Triger -->
+                    <button class="accordion-trigger w-full flex justify-between items-center mt-5">
+                        <span class="block font-medium text-3xl text-blueViolet text-left pr-5 md:text-xl">What are benefist of online education?</span>
+                        <img class="accordion-img transition-transform" src="./img/icons/down.svg" alt="svg">
+                    </button>
+                <!-- Content -->
+                 <p class="accordion-content mt-4 px-10 text-base tracking-[-0.002em] text-lightgray hidden animate-fadeIn md:px-4">
+                    Online education offers greater flexibility,
+                    convenience, and accessibility compared to traditional
+                    classroom-based learning. Students can learn at their 
+                    own pace, on their own schedule, and from anywhere with 
+                    an internet connection. It also allows for a wider range 
+                    of course options and the ability to interact with
+                    students and instructors from all over the world.  
+                 </p>
+            </div>
+            <!-- Accordion Item -->
+            <div class="accordion-items">
+                <!-- Triger -->
+                    <button class="accordion-trigger w-full flex justify-between items-center mt-5">
+                        <span class="block font-medium text-3xl text-blueViolet text-left pr-5 md:text-xl">
+                            How do online classes work?
+                        </span>
+                        <img class="accordion-img transition-transform" src="./img/icons/down.svg" alt="svg">
+                    </button>
+                <!-- Content -->
+                 <p class="accordion-content mt-4 px-10 text-base tracking-[-0.002em] text-lightgray hidden animate-fadeIn md:px-4">
+                    Online education offers greater flexibility,
+                    convenience, and accessibility compared to traditional
+                    classroom-based learning. Students can learn at their 
+                    own pace, on their own schedule, and from anywhere with 
+                    an internet connection. It also allows for a wider range 
+                    of course options and the ability to interact with
+                    students and instructors from all over the world.  
+                 </p>
+            </div>
+            <!-- Accordion Item -->
+            <div class="accordion-items">
+                <!-- Triger -->
+                    <button class="accordion-trigger w-full flex justify-between items-center mt-5">
+                        <span class="block font-medium text-3xl text-blueViolet text-left pr-5 md:text-xl">
+                            What equipment and software do I need for online classes?
+                        </span>
+                        <img class="accordion-img transition-transform" src="./img/icons/down.svg" alt="svg">
+                    </button>
+                <!-- Content -->
+                 <p class="accordion-content mt-4 px-10 text-base tracking-[-0.002em] text-lightgray hidden animate-fadeIn md:px-4">
+                    Online education offers greater flexibility,
+                    convenience, and accessibility compared to traditional
+                    classroom-based learning. Students can learn at their 
+                    own pace, on their own schedule, and from anywhere with 
+                    an internet connection. It also allows for a wider range 
+                    of course options and the ability to interact with
+                    students and instructors from all over the world.  
+                 </p>
+            </div>
+            <!-- Accordion Item -->
+            <div class="accordion-items">
+                <!-- Triger -->
+                    <button class="accordion-trigger w-full flex justify-between items-center mt-5">
+                        <span class="block font-medium text-3xl text-blueViolet text-left pr-5 md:text-xl">
+                            How do I stay mativated and engoged on online clases?
+                        </span>
+                        <img class="accordion-img transition-transform" src="./img/icons/down.svg" alt="svg">
+                    </button>
+                <!-- Content -->
+                 <p class="accordion-content mt-4 px-10 text-base tracking-[-0.002em] text-lightgray hidden animate-fadeIn md:px-4">
+                    Online education offers greater flexibility,
+                    convenience, and accessibility compared to traditional
+                    classroom-based learning. Students can learn at their 
+                    own pace, on their own schedule, and from anywhere with 
+                    an internet connection. It also allows for a wider range 
+                    of course options and the ability to interact with
+                    students and instructors from all over the world.  
+                 </p>
+            </div>
+            <!-- Accordion Item -->
+            <div class="accordion-items">
+                <!-- Triger -->
+                    <button class="accordion-trigger w-full flex justify-between items-center mt-5">
+                        <span class="block font-medium text-3xl text-blueViolet text-left pr-5 md:text-xl">
+                           How do I ensure the quality and logitimacy of online courses and programs?
+                        </span>
+                        <img class="accordion-img transition-transform" src="./img/icons/down.svg" alt="svg">
+                    </button>
+                <!-- Content -->
+                 <p class="accordion-content mt-4 px-10 text-base tracking-[-0.002em] text-lightgray hidden animate-fadeIn md:px-4">
+                    A:Online education offers greater flexibility,
+                    convenience, and accessibility compared to traditional
+                    classroom-based learning. Students can learn at their 
+                    own pace, on their own schedule, and from anywhere with 
+                    an internet connection. It also allows for a wider range 
+                    of course options and the ability to interact with
+                    students and instructors from all over the world.  
+                 </p>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe -->
+    <section class="pt-20 sm:py-10">
+        <div class="grid grid-cols-2 max-w-[1060px] mx-auto px-5 items-center gap-[40px] sm:grid-cols-1">
+            <div class="sm:order-2">
+                <img class="h-auto w-full max-w-full" src="./img/img-list-1/subscribe.png" alt="img">
+            </div>
+            <div class="sm:order-1">
+                <h4 class="text-blueViolet font-medium text-3xl">Subscribe to our newsletter</h4>
+                <p class="section-text mt-1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci nesciunt recusandae voluptas tempore dolores, 
+                    accusamus ut modi aliquid commodi repellat.
+                </p>
+                <form action="#" class="mt-[60px] flex md:mt-10 ">
+                    <input type="email" placeholder="Enter your email" class="w-full py-[14px] px-5 rounded-xl 
+                    bg-white shadow-[0px_1px_15px_0px_rgba(0,0,0,0.15)] focus:outline-blueViolet 
+                    placeholder:text-blueViolet placeholder:text-[13px] placeholder:font-medium -mr-10">
+                    <button type="submit" class="flex bg-blueViolet 
+                    items-center justify-center text-white px-10 rounded-lg text-lg shrink-0
+                    md:px-5">
+                      Join Now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+     <footer class="bg-[#1B1B1B] pt-[65px] pb-[50px]">
+        <div class="max-w-[1160px] mx-auto px-5">
+            <div class="flex justify-between md:flex-wrap md:gap-10">
+                <div class="max-w-[232px]">
+                    <img src="./img/logo/outschool.svg" alt="logo">
+                    <p class="text-xs text-white mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus excepturi numquam minus iste.
+                    </p>
+                </div>
+                <div class="grid grid-cols-3  max-w-[600px] md:max-w-full sm:grid-cols-2 sm:gap-5">
+                    <div>
+                        <p class="font-medium text-wrap text-xl text-white">General</p>
+                        <ul class="mt-4 flex flex-col gap-1">
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Contact Us</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Courses</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-medium text-wrap text-xl text-white">Policies</p>
+                        <ul class="mt-4 flex flex-col gap-1">
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Security safeguards</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Terms of service</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Privacy</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-sm hover:text-blueViolet transition-colors" href="">Accessibility</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-medium text-wrap text-xl text-white">
+                            Get in tuch
+                        </p>
+                        <p class="text-xs text-white mt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus excepturi numquam minus iste.
+                        </p>
+                        <ul class="flex items-center gap-3 mt-4">
+                            <li>
+                                <a href="" class="group">
+                                    <img class="group-hover:w-[60px]" src="./img/icons/facebbok.svg" alt="svg">
+                                </a>
+                            </li>
+                            <li><a href="" class="group">
+                                <img class="group-hover:w-[60px]" src="./img/icons/insatgram.svg" alt="svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="group">
+                                    <img class="group-hover:w-[60px]" src="./img/icons/twitter.svg" alt="svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="group">
+                                    <img class="group-hover:w-[60px]" src="./img/icons/youtube.svg" alt="svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-[#BDB989] text-xs mt-10">2022 - @OUTSCHOOL all right deserved</p>
+        </div>
+     </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
